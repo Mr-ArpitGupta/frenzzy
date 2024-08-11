@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Frenzzy</title>
+</head>
+<body>
+    
+    <!-- header start -->
+    <header>
+
+        <!-- navigation bar start -->
+        <nav>
+            <!-- navigation bar left start -->
+            <div class="nav-left">
+                <a href="home.html" class="logo"><img src="assets/logo.png" alt="frenzzy-logo", width="60px"></a>
+            </div>
+            <!-- navigation bar left end -->
+
+             <!-- navigation bar center start -->
+            <div class="nav-center">
+                
+                <a href="men.html" class="Men shoes"><others>Men</others></a>
+            
+                <a href="women.html" class="Women shoes"><others>Women</others></a>
+            
+                <a href="kids.html" class="Kids shoes"><others>Kids</others></a>
+
+            </div>
+            <!-- navigation bar center end -->
+
+            <!-- navigation bar right start -->
+            <div class="nav-right">
+                <!-- search bar start -->
+                <div1 class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="search">
+                </div1>
+                <!-- search bar end -->
+                <!-- cart start -->
+                <div>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <!-- <p>Cart</p> -->
+                </div>
+                <!-- cart end -->
+                <!-- account start -->
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <!-- <p>Account</p> -->
+                </div>
+                <!-- account end -->
+            </div>
+            <!-- navigation bar right end -->
+        </nav>
+        <!-- navigation bar end -->
+    </header>
+    <!-- header end -->
+
+    <!-- home color start -->
+    <div class="home">
+    
+    <!-- sale start -->
+    <div class="sale">
+        <marquee width="100%" direction="left">
+            Sale is Live! Get upto 30% off
+            </marquee>
+    </div>
+    <!-- sale end -->
+
+    <!-- photo video start -->
+    <div class="home-screen">
+        <a href="men.html">
+        <img src="assets/octane.png" alt="video photo">
+
+        <video width="50%" height=auto autoplay loop muted>
+            <source src="assets/shoe video.mp4" type="video/mp4">
+            <!-- <source src="/assets/shoe gif.mp4" type="video/ogg"> -->
+        </video>
+        </a>
+    </div>
+    <!-- photo video end -->
+
+    <hr> <!-- line above tagline -->
+    
+    <!-- tagline start -->
+    <div class="tagline">
+        <h1>Genz loves Frenzzy</h1>
+    </div>
+    <!-- tagline end -->
+    
+    <hr> <!-- line below tagline -->
+
+    <!-- image slider start -->
+    <div class="slider">
+        <div class="slides">
+
+            <!--radio button start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--radio button end-->
+
+            <!--slide image start-->
+            <div class="slide first">
+                <a href="home.html"><img src="assets/banner1.png" alt=""></a>
+            </div>
+            <div class="slide">
+                <a href="men.html"><img src="assets/banner2.png" alt=""></a>
+            </div>
+            <div class="slide">
+                <a href="women.html"><img src="assets/banner3.png" alt=""></a>
+            </div>
+            <div class="slide">
+                <a href="kids.html"><img src="assets/banner4.png" alt=""></a>
+            </div>
+
+            <!--slide image end-->
+
+             <!--automatic navigation start-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!--automatic navigation ends-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+
+    </div>
+    <!-- javascript for automation start -->
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio'+ counter).checked= true;
+        counter++;
+        if(counter>4){
+            counter=1;
+        }
+    }, 5000)
+    </script>
+    <!-- javascript for automation end -->
+
+    <!-- image slider end -->
+
+    <!-- category section start -->
+    <div class="categories">
+
+        <a href="men.html" class="men-shoes">
+            <img src="assets/black men.png" alt="men">
+        </a>
+            
+        <a href="women.html" class="women-shoes">
+            <img src="assets/black women.png" alt="women">
+        </a>
+            
+        <a href="kids.html" class="kid-shoes">
+            <img src="assets/black kid.png" alt="kids">
+        </a>
+
+    </div>
+    <!-- category section end -->
+
+    </div>
+    <!-- home color end -->
+
+    <!-- footer start -->
+    <footer>
+        &copy; Frenzzy. All rights reserved. Arpit Gupta.
+    </footer>
+    <!-- footer end -->
+</body>
+</html>
