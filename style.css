@@ -306,6 +306,8 @@ hr{
     margin-top: -20px;
     margin-left: -10px;
     margin-right: 20px;
+    filter: drop-shadow(1px 1px 10px #ffe3c8);
+
 }
 
 .categories .women-shoes{
@@ -332,6 +334,7 @@ hr{
     margin-top: -20px;
     margin-left: -20px;
     margin-right: 20px;
+    filter: drop-shadow(1px 1px 10px #ffc3c3);
 }
 
 .categories .kid-shoes{
@@ -358,6 +361,7 @@ hr{
     margin-top: -20px;
     margin-left: -20px;
     margin-right: 20px;
+    filter: drop-shadow(1px 1px 10px #c3cfff);
 }
 
 /* category pages */
@@ -415,6 +419,7 @@ h2{
     width: 120%;
     margin-top: -20%;
     margin-left: -10%;
+    filter: drop-shadow(2px 5px 10px black);
 }
 
 .men-product-1 .add-to-cart {
@@ -449,6 +454,7 @@ h2{
     width: 120%;
     margin-top: -20%;
     margin-left: -10%;
+    filter: drop-shadow(2px 5px 10px black);
 }
 
 .men-product-2 .add-to-cart {
@@ -482,6 +488,7 @@ h2{
     width: 120%;
     margin-top: -20%;
     margin-left: -10%;
+    filter: drop-shadow(2px 5px 10px black);
     /* margin-bottom: 30%; */
 }
 
@@ -527,7 +534,8 @@ h2{
     width: 150%;
     margin-top: -17%;
     margin-bottom: 10%;
-    margin-left: -25%
+    margin-left: -25%;
+    filter: drop-shadow(2px 5px 10px black);
 }
 
 .women-product-1 .add-to-cart {
@@ -565,6 +573,7 @@ h2{
     margin-bottom: 10%;
     margin-left: -7%;
     rotate: -10deg;
+    filter: drop-shadow(2px 5px 10px black);
 }
 
 .women-product-2 .add-to-cart {
@@ -599,6 +608,7 @@ h2{
     margin-top: -4%;
     margin-bottom: 20%;
     margin-left: -4%;
+    filter: drop-shadow(2px 5px 10px black);
 }
 
 .women-product-3 .add-to-cart {
@@ -642,6 +652,7 @@ h2{
 .kids-product-1 img{
     width: 110%;
     margin-top: -10%;
+    filter: drop-shadow(2px 5px 10px black);
     /* margin-left: -10%; */
 }
 
@@ -676,6 +687,7 @@ h2{
 .kids-product-2 img{
     width: 110%;
     margin-top: -10%;
+    filter: drop-shadow(2px 5px 10px black);
     /* margin-left: -10%; */
 }
 
@@ -712,6 +724,7 @@ h2{
     margin-bottom: 30%;
     margin-left: -12%;
     rotate: -15deg;
+    filter: drop-shadow(2px 5px 10px black);
 }
 
 .kids-product-3 .add-to-cart {
